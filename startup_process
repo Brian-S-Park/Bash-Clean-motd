@@ -1,0 +1,44 @@
+#!/bin/bash
+
+cat ~/Ubuntu-Startup-Message/ascii/ubuntulogo
+TEMP=$(date +%A)
+date +"						      %A %d %B"
+
+#Quote Generator
+#Quotes can be changes by editing the text in ~/Ubuntu-Startup-Message/quotes
+if [ $TEMP = 'Monday' ]; then
+	cat ~/Ubuntu-Startup-Message/quotes/Monday
+fi
+
+if [ $TEMP = 'Tuesday' ]; then
+        cat ~/Ubuntu-Startup-Message/quotes/Tuesday
+fi
+
+if [ $TEMP = 'Wednesday' ]; then
+        cat ~/Ubuntu-Startup-Message/quotes/Wednesday
+fi
+
+if [ $TEMP = 'Thursday' ]; then
+        cat ~/Ubuntu-Startup-Message/quotes/Thursday
+fi
+
+if [ $TEMP = 'Friday' ]; then
+        cat ~/Ubuntu-Startup-Message/quotes/Friday
+fi
+
+if [ $TEMP = 'Saturday' ]; then
+        cat ~/Ubuntu-Startup-Message/quotes/Saturday
+fi
+
+if [ $TEMP = 'Sunday' ]; then
+        cat ~/Ubuntu-Startup-Message/quotes/Sunday
+fi
+#Checks if there is an update available. If there is no update avaiable, then it returns nothing to keep a clean look.
+if [ $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2) -ge 1 ]; then
+	echo "                                                Available updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2)"
+fi
+
+if [ $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1) -ge 1 ]; then
+	echo"                                                 Security updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1)"
+fi
+
