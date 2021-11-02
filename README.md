@@ -4,7 +4,7 @@
 
 
 
-	A clean, beautiful opening message that displays the operating system version, date, one of the various
+A clean, beautiful opening message that displays the operating system version, date, one of the various
 quotes, and whether or not an update is available. The quotes will change depending on the day of the week and can be
 edited in the /quotes folder. The update message will not appear unless there is an update immediately available to
 preserve a clean looking terminal. Below is an example of what your terminal can look like as well. I used the tool
