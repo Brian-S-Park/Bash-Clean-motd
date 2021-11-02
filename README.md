@@ -9,7 +9,7 @@ quotes, and whether or not an update is available. The quotes will change depend
 edited in the /quotes folder. The update message will not appear unless there is an update immediately available to
 preserve a clean looking terminal. Below is an example of what your terminal can look like as well. I used the tool
 jp2a by cslarsen (https://github.com/cslarsen/jp2a) to create an ascii image of the ubuntu logo and the ascii image is 
-avialable in the /ascii folder. It was a fun litle project to make to introduce myself into bash scipting. Thank you 
+avialable in the /ascii folder. It was a fun litle project to introduce myself into bash scipting. Thank you 
 for checking out my project!
 
 
@@ -49,3 +49,12 @@ for checking out my project!
                                                 try to become a person of value."
                                                        -Albert Einstein
 
+
+
+	Instructions:
+1. Clone repo into your local drive and switch into that directory.
+2. Run "sudo chmod +x startup_process" to make it executable.
+3. Make sure all permission for the folder allow the script to be executable without sudo priveledges.
+4. Run "sudo nano ~/.bashrc" and scroll to the bottom of document
+5. Add "bash ~/Ubuntu-Startup-Message/startup_process"
+6. Done!
