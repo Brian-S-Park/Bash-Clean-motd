@@ -1,5 +1,5 @@
 
-						Ubuntu Startup Message!
+						Ubuntu Start Message!
 
 
 
