@@ -14,49 +14,46 @@ avialable in the /ascii folder. The current code has been updated to center the 
  screen size.It was a fun little project to introduce myself to bash scripting. Thank you for checking out my project!
 
 
-	Example:
-                                   __  ____                __           ___   ____   ____  __ __
-                                  / / / / /_  __  ______  / /___  __   |__ \ / __ \ / __ \/ // /
-                                 / / / / __ \/ / / / __ \/ __/ / / /   __/ // / / // / / / // /_
-                                / /_/ / /_/ / /_/ / / / / /_/ /_/ /   / __// /_/ // /_/ /__  __/
-                                \____/_.___/\__,_/_/ /_/\__/\__,_/   /____/\____(_)____/  /_/
+Example:
+                                __  ____                __           ___   ____   ____  __ __
+                               / / / / /_  __  ______  / /___  __   |__ \ / __ \ / __ \/ // /
+                              / / / / __ \/ / / / __ \/ __/ / / /   __/ // / / // / / / // /_
+                             / /_/ / /_/ / /_/ / / / / /_/ /_/ /   / __// /_/ // /_/ /__  __/
+                             \____/_.___/\__,_/_/ /_/\__/\__,_/   /____/\____(_)____/  /_/
 
 
-                                                       .;codddoc;.
-                                                    .,coddddddddddddc,.
-                                                  'ldddddddddddddddddddl'
-                                                'odddddddddddddddc. .:dddo'
-                                               cdddddddddo:,'''.l.   .dddddc
-                                              ldddddddo,l'       ;,.,lddddddl
-                                             cddddddd,   l;;:c:;.    ,dddddddl
-                                            'ddddddd'   ,odddddddd,   .ddddddd'
-                                            cdddl:ll   cdddddddddddc   :ddddddl
-                                            ddd'   .: .ddddddddddddd,..;ddddddd
-                                            ddd,   .; .ddddddddddddd,..;ddddddd
-                                            cdddlcll   :dddddddddddc   :ddddddl
-                                            'ddddddd'   ,odddddddo,   'ddddddd'
-                                             cddddddd;   l;,:::,.    ,dddddddc
-                                              ldddddddo,l'      .;'.'lddddddl
-                                               :dddddddddo:;,,,;l.   .dddddc
-                                                .ldddddddddddddddc. .cdddo.
-                                                  .cdddddddddddddddddddl'
-                                                    .'codddddddddddoc'.
-                                                        .;codddoc;.
+                                                      .;codddoc;.
+                                                  .,coddddddddddddc,.
+                                                'ldddddddddddddddddddl'
+                                              'odddddddddddddddc. .:dddo'
+                                             cdddddddddo:,'''.l.   .dddddc
+                                            ldddddddo,l'       ;,.,lddddddl
+                                           cddddddd,   l;;:c:;.    ,dddddddl
+                                          'ddddddd'   ,odddddddd,   .ddddddd'
+                                          cdddl:ll   cdddddddddddc   :ddddddl
+                                          ddd'   .: .ddddddddddddd,..;ddddddd
+                                          ddd,   .; .ddddddddddddd,..;ddddddd
+                                          cdddlcll   :dddddddddddc   :ddddddl
+                                          'ddddddd'   ,odddddddo,   'ddddddd'
+                                           cddddddd;   l;,:::,.    ,dddddddc
+                                            ldddddddo,l'      .;'.'lddddddl
+                                             :dddddddddo:;,,,;l.   .dddddc
+                                              .ldddddddddddddddc. .cdddo.
+                                                .cdddddddddddddddddddl'
+                                                  .'codddddddddddoc'.
+                                                      .;codddoc;.
+                                                                                                                        
+                                                       Wednesday
+                                                    November-03-2021
 
-
-                                                      Monday 01 November
-
-                                        "Try not to become a person of success, but rather
-                                                try to become a person of value."
-                                                       -Albert Einstein
-
-
+                                No one can make you feel inferior without your consent.
+                                                   -Eleanor Roosevelt
 
 Instructions:
 
 (Linux)
 1. Clone repo into your local drive and switch into the newly created directory.
-2. Run "chmod +x startup_process" to make it executable.
+2. Run "chmod +x startup.sh" to make it executable.
 3. Make sure all permission for the folder allow the script to be executable without sudo priveledges.
 4. Run "nano ~/.bashrc" and scroll to the bottom of document
 5. Add "bash ~/Ubuntu-Startup-Message/startup.sh"
