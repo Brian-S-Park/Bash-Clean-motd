@@ -5,14 +5,13 @@
 
 
 
-A simple, clean opening message that displays the operating system version, date, one of the various
-quotes, and whether or not an update is available. The quotes will change depending on the day of the week and can be
-edited in the /quotes folder. The update message will not appear unless there is an update immediately available to
-preserve a clean looking terminal. Below is an example of what your terminal can look like as well. I used the tool
-jp2a by cslarsen (https://github.com/cslarsen/jp2a) to create an ascii image of the ubuntu logo and the ascii image is 
-avialable in the /ascii folder. The current code is formated for a 100x34 window but I plan on writing a piece of code
-that will center the text. It was a fun littl project to introduce myself to bash scripting. Thank you for checking
-out my project!
+   A simple, clean opening message that displays the operating system version, date, a quote of the day, and whether
+or not an update is available. The quotes will change depending on the day of the week and can be edited in the /quotes
+folder. The "Available updates" message will not appear unless there is an update immediately available to preserve a
+clean looking  terminal. Below is an example of what your terminal can look like as well. I used the tool jp2a by 
+cslarsen (https://github.com/cslarsen/jp2a) to create an ascii image of the ubuntu logo and the ascii image is 
+avialable in the /ascii folder. The current code has been updated to center the message depedning on any terminal
+ screen size.It was a fun little project to introduce myself to bash scripting. Thank you for checking out my project!
 
 
 	Example:
@@ -56,9 +55,9 @@ out my project!
 Instructions:
 
 (Linux)
-1. Clone repo into your local drive and switch into that directory.
-2. Run "sudo chmod +x startup_process" to make it executable.
+1. Clone repo into your local drive and switch into the newly created directory.
+2. Run "chmod +x startup_process" to make it executable.
 3. Make sure all permission for the folder allow the script to be executable without sudo priveledges.
-4. Run "sudo nano ~/.bashrc" and scroll to the bottom of document
-5. Add "bash ~/Ubuntu-Startup-Message/startup_process"
+4. Run "nano ~/.bashrc" and scroll to the bottom of document
+5. Add "bash ~/Ubuntu-Startup-Message/startup.sh"
 6. Done!
