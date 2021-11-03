@@ -85,6 +85,3 @@ fi
 if [ $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1) -ge 1 ]; then
 	print_centered "Security updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1)"
 fi
-
- print_centered "Available updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2)"
- print_centered "Security updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1)"
