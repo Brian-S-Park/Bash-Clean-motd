@@ -11,10 +11,10 @@ folder. The "Available updates" message will not appear unless there is an updat
 clean looking  terminal. Below is an example of what your terminal can look like as well. I used the tool jp2a by 
 cslarsen (https://github.com/cslarsen/jp2a) to create an ascii image of the ubuntu logo and the ascii image is 
 avialable in the /ascii folder. The current code has been updated to center the message depedning on any terminal
- screen size.It was a fun little project to introduce myself to bash scripting. Thank you for checking out my project!
+screen size.It was a fun little project to introduce myself to bash scripting. Thank you for checking out my project!
 
 
-Example:
+	Example:
                                 __  ____                __           ___   ____   ____  __ __
                                / / / / /_  __  ______  / /___  __   |__ \ / __ \ / __ \/ // /
                               / / / / __ \/ / / / __ \/ __/ / / /   __/ // / / // / / / // /_
