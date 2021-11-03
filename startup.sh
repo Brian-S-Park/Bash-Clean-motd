@@ -25,7 +25,7 @@ function print_centered {
      return 0
 }
 
-bash ~/new/ascii/image.sh
+bash ~/Ubuntu-Startup-Message/ascii/image.sh
 TEMP=$(date +%A)
 print_centered $(date +%A)
 print_centered $(date +%B-%d-%Y)
@@ -34,45 +34,45 @@ echo ""
 #Quote Generator
 #Quotes can be changes by editing the text in ~/Ubuntu-Startup-Message/quotes
 if [ $TEMP = 'Monday' ]; then
-	source ~/new/quotes/Monday
+	source ~/Ubuntu-Startup-Message/quotes/Monday
         print_centered "$MONDAY"
 	print_centered "$MONDAY2"
         print_centered "$AUTHOR"
 fi
 
 if [ $TEMP = 'Tuesday' ]; then
-	source ~/new/quotes/Tuesday
+	source ~/Ubuntu-Startup-Message/quotes/Tuesday
         print_centered "$TUESDAY"
 	print_centered "$TUESDAY2"
         print_centered "$AUTHOR"
 fi
 
 if [ $TEMP = 'Wednesday' ]; then
-	source ~/new/quotes/Wednesday
+	source ~/Ubuntu-Startup-Message/quotes/Wednesday
 	print_centered "$WEDNESDAY"
 	print_centered "$AUTHOR"
 fi
 
 if [ $TEMP = 'Thursday' ]; then
-	source ~/new/quotes/Thursday
+	source ~/Ubuntu-Startup-Message/quotes/Thursday
         print_centered "$THURSDAY"
         print_centered "$AUTHOR"
 fi
 
 if [ $TEMP = 'Friday' ]; then
-	source ~/new/quotes/Friday
+	source ~/Ubuntu-Startup-Message/quotes/Friday
         print_centered "$FRIDAY"
         print_centered "$AUTHOR"
 fi
 
 if [ $TEMP = 'Saturday' ]; then
-	source ~/new/quotes/Saturday
+	source ~/Ubuntu-Startup-Message/quotes/Saturday
         print_centered "$SATURDAY"
         print_centered "$AUTHOR"
 fi
 
 if [ $TEMP = 'Sunday' ]; then
-	source ~/new/quotes/Sunday
+	source ~/Ubuntu-Startup-Message/quotes/Sunday
         print_centered "$SUNDAY"
         print_centered "$AUTHOR"
 fi
