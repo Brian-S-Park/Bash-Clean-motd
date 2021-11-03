@@ -10,8 +10,8 @@ or not an update is available. The quotes will change depending on the day of th
 folder. The "Available updates" message will not appear unless there is an update immediately available to preserve a
 clean looking  terminal. Below is an example of what your terminal can look like as well. I used the tool jp2a by 
 cslarsen (https://github.com/cslarsen/jp2a) to create an ascii image of the ubuntu logo and the ascii image is 
-avialable in the /ascii folder. The current code has been updated to center the message depedning on any terminal
-screen size.It was a fun little project to introduce myself to bash scripting. Thank you for checking out my project!
+avialable in the /ascii folder. The current code has been updated to center the message depending on any terminal
+screen size. It was a fun little project to introduce myself to bash scripting. Thank you for checking out my project!
 
 
 	Example:
