@@ -76,7 +76,7 @@ if [ $TEMP = 'Sunday' ]; then
         print_centered "$SUNDAY"
         print_centered "$AUTHOR"
 fi
-
+echo ""
 #Checks if there is an update available. If there is no update avaiable, then it returns nothing to keep a clean look.
 if [ $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2) -ge 1 ]; then
 	print_centered "Available updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2)"
@@ -85,3 +85,6 @@ fi
 if [ $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1) -ge 1 ]; then
 	print_centered "Security updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1)"
 fi
+
+ print_centered "Available updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2)"
+ print_centered "Security updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1)"

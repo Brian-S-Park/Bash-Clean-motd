@@ -1,6 +1,4 @@
 
-
-
 						Ubuntu Startup Message!
 
 
@@ -49,6 +47,8 @@ screen size. It was a fun little project to introduce myself to bash scripting. 
                                 No one can make you feel inferior without your consent.
                                                    -Eleanor Roosevelt
 
+                                                  Available updates: 0
+                                                  Security updates: 0
 Instructions:
 
 (Linux)
