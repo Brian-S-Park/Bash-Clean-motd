@@ -47,14 +47,12 @@ screen size. It was a fun little project to introduce myself to bash scripting. 
                                 No one can make you feel inferior without your consent.
                                                    -Eleanor Roosevelt
 
-                                                  Available updates: 0
-                                                  Security updates: 0
 Instructions:
 
 (Linux)
 1. Clone repo into your local drive and switch into the newly created directory.
 2. Run "chmod +x startup.sh" to make it executable.
 3. Make sure all permission for the folder allow the script to be executable without sudo priveledges.
-4. Run "nano ~/.bashrc" and scroll to the bottom of document
-5. Add "bash ~/Ubuntu-Startup-Message/startup.sh"
+4. Run "nano ~/.bashrc" and scroll to the bottom of document.
+5. Add "bash ~/Ubuntu-Startup-Message/startup.sh".
 6. Done!
