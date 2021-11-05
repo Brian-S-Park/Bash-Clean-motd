@@ -54,4 +54,3 @@ print_centered ".'codddddddddddoc'. "
 print_centered ".;codddoc;. "
 print_centered "		"
 
-
