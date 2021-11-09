@@ -41,12 +41,15 @@ screen size. It was a fun little project to introduce myself to bash scripting. 
                                                   .'codddddddddddoc'.
                                                       .;codddoc;.
                                                                                                                         
-                                                       Wednesday
-                                                    November-03-2021
+                                                        Tuesday
+                                                    November-09-2021
 
-                                No one can make you feel inferior without your consent.
-                                                   -Eleanor Roosevelt
+                                 A successful man is one who can lay a firm foundation
+                                       with the bricks others have thrown at them.
+                                                    -David Brinkley
 
+                                                  Available updates: 1
+                                                  Security updates: 1
 Instructions:
 
 (Linux)
