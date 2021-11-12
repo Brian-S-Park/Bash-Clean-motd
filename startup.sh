@@ -25,7 +25,7 @@ function print_centered {
      return 0
 }
 
-bash ~/Ubuntu-Start-Message/ascii/image.sh
+bash ~/script/UbuntuStartMessage/ascii/image.sh
 TEMP=$(date +%A)
 print_centered $(date +%A)
 print_centered $(date +%B-%d-%Y)
@@ -34,54 +34,58 @@ echo ""
 #Quote Generator
 #Quotes can be changes by editing the text in ~/Ubuntu-Startup-Message/quotes
 if [ $TEMP = 'Monday' ]; then
-	source ~/Ubuntu-Start-Message/quotes/Monday
+	source ~/script/UbuntuStartMessage/quotes/Monday
         print_centered "$MONDAY"
 	print_centered "$MONDAY2"
         print_centered "$AUTHOR"
-fi
 
-if [ $TEMP = 'Tuesday' ]; then
-	source ~/Ubuntu-Start-Message/quotes/Tuesday
+
+elif [ $TEMP = 'Tuesday' ]; then
+	source ~/script/UbuntuStartMessage/quotes/Tuesday
         print_centered "$TUESDAY"
 	print_centered "$TUESDAY2"
         print_centered "$AUTHOR"
-fi
 
-if [ $TEMP = 'Wednesday' ]; then
-	source ~/Ubuntu-Start-Message/quotes/Wednesday
+
+elif [ $TEMP = 'Wednesday' ]; then
+	source ~/script/UbuntuStartMessage/quotes/Wednesday
 	print_centered "$WEDNESDAY"
 	print_centered "$AUTHOR"
-fi
 
-if [ $TEMP = 'Thursday' ]; then
-	source ~/Ubuntu-Start-Message/quotes/Thursday
+
+elif [ $TEMP = 'Thursday' ]; then
+	source ~/script/UbuntuStartMessage/quotes/Thursday
         print_centered "$THURSDAY"
         print_centered "$AUTHOR"
-fi
 
-if [ $TEMP = 'Friday' ]; then
-	source ~/Ubuntu-Start-Message/quotes/Friday
+
+elif [ $TEMP = 'Friday' ]; then
+	source ~/script/UbuntuStartMessage/quotes/Friday
         print_centered "$FRIDAY"
         print_centered "$AUTHOR"
-fi
 
-if [ $TEMP = 'Saturday' ]; then
-	source ~/Ubuntu-Start-Message/quotes/Saturday
+
+elif [ $TEMP = 'Saturday' ]; then
+	source ~/script/UbuntuStartMessage/quotes/Saturday
         print_centered "$SATURDAY"
         print_centered "$AUTHOR"
-fi
 
-if [ $TEMP = 'Sunday' ]; then
-	source ~/Ubuntu-Start-Message/quotes/Sunday
+
+elif [ $TEMP = 'Sunday' ]; then
+	source ~/script/UbuntuStartMessage/quotes/Sunday
         print_centered "$SUNDAY"
         print_centered "$AUTHOR"
 fi
 echo ""
 #Checks if there is an update available. If there is no update avaiable, then it returns nothing to keep a clean look.
-if [ $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2) -ge 1 ]; then
+UPGRADES=$(/usr/lib/update-notifier/apt-check 2>&1 |  cut -d ';' -f 2)
+SECURITY=$(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1)
+echo "$UPGRADES"
+echo "$SECURITY"
+if [ $UPGRADES -ge 1 ]; then
 	print_centered "Available updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2)"
 fi
 
-if [ $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1) -ge 1 ]; then
+if [ $SECURITY -ge 1 ]; then
 	print_centered "Security updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1)"
 fi
