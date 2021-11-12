@@ -1,9 +1,9 @@
 
-						Ubuntu Start Message!
+						Bash Clean Message of the Day!
 
 
 
-   A simple, clean opening message that displays the operating system version, date, a quote of the day, and whether
+   A simple, clean opening message of the day that displays the operating system version, date, a quote of the day, and whether
 or not an update is available. The quotes will change depending on the day of the week and can be edited in the /quotes
 folder. The "Available updates" message will not appear unless there is an update immediately available to preserve a
 clean looking  terminal. Below is an example of what your terminal can look like as well. I used the tool jp2a by 
