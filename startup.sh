@@ -80,8 +80,6 @@ echo ""
 #Checks if there is an update available. If there is no update avaiable, then it returns nothing to keep a clean look.
 UPGRADES=$(/usr/lib/update-notifier/apt-check 2>&1 |  cut -d ';' -f 2)
 SECURITY=$(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 1)
-echo "$UPGRADES"
-echo "$SECURITY"
 if [ $UPGRADES -ge 1 ]; then
 	print_centered "Available updates: $(/usr/lib/update-notifier/apt-check 2>&1 | cut -d ';' -f 2)"
 fi
