@@ -25,54 +25,54 @@ function print_centered {
      return 0
 }
 
-bash ~/script/UbuntuStartMessage/ascii/image.sh
+bash ~/Bash-Clean-motd/ascii/image.sh
 TEMP=$(date +%A)
 print_centered $(date +%A)
 print_centered $(date +%B-%d-%Y)
 echo ""
 
 #Quote Generator
-#Quotes can be changes by editing the text in ~/Ubuntu-Startup-Message/quotes
+#Quotes can be changes by editing the text in ~/Bash-Clean-motd/quotes
 if [ $TEMP = 'Monday' ]; then
-	source ~/script/UbuntuStartMessage/quotes/Monday
+	source ~/Bash-Clean-motd/quotes/Monday
         print_centered "$MONDAY"
 	print_centered "$MONDAY2"
         print_centered "$AUTHOR"
 
 
 elif [ $TEMP = 'Tuesday' ]; then
-	source ~/script/UbuntuStartMessage/quotes/Tuesday
+	source ~/Bash-Clean-motd/quotes/Tuesday
         print_centered "$TUESDAY"
 	print_centered "$TUESDAY2"
         print_centered "$AUTHOR"
 
 
 elif [ $TEMP = 'Wednesday' ]; then
-	source ~/script/UbuntuStartMessage/quotes/Wednesday
+	source ~/Bash-Clean-motd/quotes/Wednesday
 	print_centered "$WEDNESDAY"
 	print_centered "$AUTHOR"
 
 
 elif [ $TEMP = 'Thursday' ]; then
-	source ~/script/UbuntuStartMessage/quotes/Thursday
+	source ~/Bash-Clean-motd/quotes/Thursday
         print_centered "$THURSDAY"
         print_centered "$AUTHOR"
 
 
 elif [ $TEMP = 'Friday' ]; then
-	source ~/script/UbuntuStartMessage/quotes/Friday
+	source ~/Bash-Clean-motd/quotes/Friday
         print_centered "$FRIDAY"
         print_centered "$AUTHOR"
 
 
 elif [ $TEMP = 'Saturday' ]; then
-	source ~/script/UbuntuStartMessage/quotes/Saturday
+	source ~/Bash-Clean-motd/quotes/Saturday
         print_centered "$SATURDAY"
         print_centered "$AUTHOR"
 
 
 elif [ $TEMP = 'Sunday' ]; then
-	source ~/script/UbuntuStartMessage/quotes/Sunday
+	source ~/Bash-Clean-motd/quotes/Sunday
         print_centered "$SUNDAY"
         print_centered "$AUTHOR"
 fi
