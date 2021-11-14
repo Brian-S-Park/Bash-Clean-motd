@@ -59,3 +59,11 @@ Instructions:
 4. Run "nano ~/.bashrc" and scroll to the bottom of document.
 5. Add "bash ~/Bash-Clean-motd/startup.sh".
 6. Done!
+
+(MacOS)
+1. Clone repo into your local drive and switch into the newly created directory.
+2. Run "chmod +x startup_mac.sh" to make it executable.
+3. Open preferences on terminal and go to "Shell" under the "Profiles" tab.
+4. Check the box that says "Run command:" and type "bash ~/Bash-Clean-motd/startup_mac.sh" (no quotes).
+5. Close terminal and reopen to set the changes.
+*The mac version will use brew to check for any new updates or upgrades so make sure to have brew installed!
