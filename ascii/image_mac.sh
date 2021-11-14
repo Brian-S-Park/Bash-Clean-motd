@@ -1,12 +1,20 @@
 #!/bin/bash
 
 source ~/Bash-Clean-motd/centerer.src
-print_centered "      __  ____                __           ___   ____   ____  __ __"
-print_centered "     / / / / /_  __  ______  / /___  __   |__ \ / __ \ / __ \/ // /"
-print_centered "    / / / / __ \/ / / / __ \/ __/ / / /   __/ // / / // / / / // /_"
-print_centered "   / /_/ / /_/ / /_/ / / / / /_/ /_/ /   / __// /_/ // /_/ /__  __/"
-print_centered "\____/_.___/\__,_/_/ /_/\__/\__,_/   /____/\____(_)____/  /_/"
+
+VERSION=" macOS Monterey 12.0.1 "
+
+print_centered " _______  _______  ______    __   __  ___   __    _  _______  ___     "
+print_centered "|       ||       ||    _ |  |  |_|  ||   | |  |  | ||   _   ||   |    "
+print_centered "|_     _||    ___||   | ||  |       ||   | |   |_| ||  |_|  ||   |    "
+print_centered "  |   |  |   |___ |   |_||_ |       ||   | |       ||       ||   |    "
+print_centered "  |   |  |    ___||    __  ||       ||   | |  _    ||       ||   |___ "
+print_centered "  |   |  |   |___ |   |  | || ||_|| ||   | | | |   ||   _   ||       |"
+print_centered "  |___|  |_______||___|  |_||_|   |_||___| |_|  |__||__| |__||_______|"
+print_centered "$VERSION"
+print_centered "..........."
 print_centered ""
+
 print_centered ""
 print_centered ".;codddoc;. "
 print_centered ".,coddddddddddddc,. "

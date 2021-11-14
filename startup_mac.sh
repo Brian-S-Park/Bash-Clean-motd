@@ -2,7 +2,7 @@
 
 clear
 source ~/Bash-Clean-motd/centerer.src
-bash ~/Bash-Clean-motd/ascii/image.sh
+bash ~/Bash-Clean-motd/ascii/image_mac.sh
 TEMP=$(date +%A)
 print_centered $(date +%A)
 print_centered $(date +%B-%d-%Y)

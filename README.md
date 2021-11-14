@@ -66,4 +66,5 @@ Instructions:
 3. Open preferences on terminal and go to "Shell" under the "Profiles" tab.
 4. Check the box that says "Run command:" and type "bash ~/Bash-Clean-motd/startup_mac.sh" (no quotes).
 5. Close terminal and reopen to set the changes.
+6. Done!
 *The mac version will use brew to check for any new updates or upgrades so make sure to have brew installed!
