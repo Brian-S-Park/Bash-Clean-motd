@@ -57,5 +57,5 @@ Instructions:
 2. Run "chmod +x startup.sh" to make it executable.
 3. Make sure all permission for the folder allow the script to be executable without sudo priveledges.
 4. Run "nano ~/.bashrc" and scroll to the bottom of document.
-5. Add "bash ~/Ubuntu-Startup-Message/startup.sh".
+5. Add "bash ~/Bash-Clean-motd/startup.sh".
 6. Done!
