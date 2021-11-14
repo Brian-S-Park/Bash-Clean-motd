@@ -25,10 +25,10 @@ function print_centered {
      return 0
 }
 
-print_centered "     __  ____                __           ___   ____   ____  __ __"
-print_centered "    / / / / /_  __  ______  / /___  __   |__ \ / __ \ / __ \/ // /"
-print_centered "   / / / / __ \/ / / / __ \/ __/ / / /   __/ // / / // / / / // /_"
-print_centered "  / /_/ / /_/ / /_/ / / / / /_/ /_/ /   / __// /_/ // /_/ /__  __/"
+print_centered "      __  ____                __           ___   ____   ____  __ __"
+print_centered "     / / / / /_  __  ______  / /___  __   |__ \ / __ \ / __ \/ // /"
+print_centered "    / / / / __ \/ / / / __ \/ __/ / / /   __/ // / / // / / / // /_"
+print_centered "   / /_/ / /_/ / /_/ / / / / /_/ /_/ /   / __// /_/ // /_/ /__  __/"
 print_centered "\____/_.___/\__,_/_/ /_/\__/\__,_/   /____/\____(_)____/  /_/"
 print_centered ""
 print_centered ""
