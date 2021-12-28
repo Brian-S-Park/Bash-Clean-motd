@@ -65,4 +65,4 @@ Instructions:
 4. Open preferences on terminal and go to "Shell" under the "Profiles" tab.
 5. Check the box that says "Run command:" and type "bash ~/Bash-Clean-motd/startup_mac.sh" (no quotes).
 6. Close terminal and reopen to set the changes.
-y7. Done!
+7. Done!
