@@ -1,8 +1,8 @@
 #!/bin/bash
 
-source ~/Bash-Clean-motd/centerer.src
+source ./centerer.src
 
-VERSION=" macOS Monterey 12.0.1 "
+VERSION=" macOS Monterey 12.1.0 "
 
 print_centered " _______  _______  ______    __   __  ___   __    _  _______  ___     "
 print_centered "|       ||       ||    _ |  |  |_|  ||   | |  |  | ||   _   ||   |    "

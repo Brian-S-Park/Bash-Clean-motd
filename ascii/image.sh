@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/Bash-Clean-motd/centerer.src
+source ./centerer.src
 print_centered "      __  ____                __           ___   ____   ____  __ __"
 print_centered "     / / / / /_  __  ______  / /___  __   |__ \ / __ \ / __ \/ // /"
 print_centered "    / / / / __ \/ / / / __ \/ __/ / / /   __/ // / / // / / / // /_"
