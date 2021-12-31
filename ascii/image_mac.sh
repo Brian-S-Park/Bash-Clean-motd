@@ -2,7 +2,7 @@
 
 source ./centerer.src
 
-VERSION=" macOS Monterey 12.1.0 "
+VERSION=$(echo "$(sw_vers)" | awk '{print $2}' | head -2 | awk 'BEGIN{ORS=" "}2')
 
 print_centered " _______  _______  ______    __   __  ___   __    _  _______  ___     "
 print_centered "|       ||       ||    _ |  |  |_|  ||   | |  |  | ||   _   ||   |    "
@@ -12,7 +12,7 @@ print_centered "  |   |  |    ___||    __  ||       ||   | |  _    ||       ||  
 print_centered "  |   |  |   |___ |   |  | || ||_|| ||   | | | |   ||   _   ||       |"
 print_centered "  |___|  |_______||___|  |_||_|   |_||___| |_|  |__||__| |__||_______|"
 print_centered "$VERSION"
-print_centered "..........."
+print_centered "...."
 print_centered ""
 
 print_centered ""
