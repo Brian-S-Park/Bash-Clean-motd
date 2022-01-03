@@ -1,0 +1,42 @@
+#!/bin/bash
+
+source ~/Scripts/centerer/centerer.src
+
+
+VERSION=$(echo "$(sw_vers)" | awk '{print $2}' | head -2 | awk 'BEGIN{ORS=" "}2')
+
+print_centered " _______  _______  ______    __   __  ___   __    _  _______  ___     "
+print_centered "|       ||       ||    _ |  |  |_|  ||   | |  |  | ||   _   ||   |    "
+print_centered "|_     _||    ___||   | ||  |       ||   | |   |_| ||  |_|  ||   |    "
+print_centered "  |   |  |   |___ |   |_||_ |       ||   | |       ||       ||   |    "
+print_centered "  |   |  |    ___||    __  ||       ||   | |  _    ||       ||   |___ "
+print_centered "  |   |  |   |___ |   |  | || ||_|| ||   | | | |   ||   _   ||       |"
+print_centered "  |___|  |_______||___|  |_||_|   |_||___| |_|  |__||__| |__||_______|"
+print_centered "$VERSION"
+print_centered "....."
+echo ""
+print_centered "                               ,.                     "
+print_centered "                             :xoc::'                  "
+print_centered "                           ,l.;MMMMMX:                "
+print_centered "                     .cdxd:;  .NMMMMMMK;              "
+print_centered "                   .kMMMMMMMK:  ;looool:.             "
+print_centered "                  oMMMMMMMMMMMd                       "
+print_centered "                 xMMMMMMMMMMMMk                       "
+print_centered "                kMMMMMMMMMMMMMc                       "
+print_centered "               xMMMMMMMMMMMMMMc                       "
+print_centered "              oMMMMMMMMMMMMMMM0                       "
+print_centered "             ,MMMMMMMMMMMMMMMMMl                      "
+print_centered "            .NMMMMMMMMMMMMMMMMMMd                     "
+print_centered "            OMMMMMMMMMMMMMMMMMMMMK.                   "
+print_centered "           :MMMMMMMMMMMMMMMMMMMMMMN.                  "
+print_centered "           0MMMMMMMMMMMMMMMMMMMMMMMk                  "
+print_centered "           MMMMMMMMMMMMMMMMMMMMMMMMO                  "
+print_centered "           WMMMMMMMMMMMMMMMMMMMMMMMx                  "
+print_centered "           KMMMMMMMMMMMMMMMMMMMMMMM,                  "
+print_centered "           ;MMMMMMMMMMMMMMMMMMMMMN:                   "
+print_centered "            'OMMMMMMMMMMMMMMMMMKc                     "
+print_centered "              .:dONMMMMMMMMWOl.                       "
+print_centered "                   .MMMMMM.                           "
+echo ""     
+echo ""
+
